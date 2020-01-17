@@ -9,7 +9,7 @@ const addBandName = () => {
     let bandName = document.getElementById("bandName").value;
     message = takeNumber(bandName);
     appendMessage(message);
-    document.forms['bandInput'].reset();
+    document.forms.bandInput.reset();
 };
 
 const takeNumber = (bands) => {
@@ -48,7 +48,7 @@ btn.addEventListener('click', (e) => {
     let input = document.getElementById("bandName").value;
     if (!(/\S/.test(input))) {
         e.preventDefault();
-        document.forms['bandInput'].reset();
+        document.forms.bandInput.reset();
     } else if (input !== "") {
         addBandName();
     }
@@ -60,7 +60,7 @@ document.addEventListener('keypress', (e) => {
     if (e.keyCode == 13 && input !== "") {
         if (!(/\S/.test(input))) {
             e.preventDefault();
-            document.forms['bandInput'].reset();
+            document.forms.bandInput.reset();
         } else if (input !== "") {
             addBandName();
         }
@@ -79,6 +79,5 @@ window.onresize = function(event) {
     var w = window.innerWidth;
 var h = window.innerHeight;
 if (w < 350) {
-    window.resizeTo(350, h)
-}
-};
+    window.resizeTo(350, h);
+}};
