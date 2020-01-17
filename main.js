@@ -38,7 +38,7 @@ const appendMessage = (message) => {
     styledMessage.className = "message";
     styledMessage.textContent = message;
     messageElement.appendChild(styledMessage);
-}
+};
 
 messages.forEach(message => {
     appendMessage(message);
@@ -75,9 +75,9 @@ document.addEventListener('keypress', (e) => {
 //     e.preventDefault();
 // }, false);
 
-window.onresize = function(event) {
-    var w = window.innerWidth;
-var h = window.innerHeight;
-if (w < 350) {
-    window.resizeTo(350, h);
-}};
+// window.onresize = function(event) {
+//     var w = window.innerWidth;
+// var h = window.innerHeight;
+// if (w < 350) {
+//     window.resizeTo(350, h);
+// }};
