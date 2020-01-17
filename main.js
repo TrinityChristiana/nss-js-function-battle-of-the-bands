@@ -4,12 +4,19 @@
 
 let bandNumber = 0;
 
-const takeNumber = function (bandName) {
-    bandNumber++;
-    return `${bandNumber}. ${bandName}`
-};
-let scum = takeNumber("Galactic Scum");
-console.log(scum);  // This should print "1. Galactic Scum" in the console
+let bands = ["Galactic Scum", "Underdogs"];
 
-let under = takeNumber("Underdogs")
-console.log(under);  // This should print "2. Underdogs" in the console
+const takeNumber = function (bands) {
+    let bandMessage = [];
+    bands.forEach(band => {
+        bandNumber++;
+        bandMessage.push(`${bandNumber}. ${band}`);
+    });
+    return bandMessage;
+    
+    // return `${bandNumber}. ${bandName}`
+};
+
+bandMessage = takeNumber(bands);
+console.log(bandMessage);
+
