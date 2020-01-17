@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.messages, form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn, #bandName {
+    border: 1px solid black;
+    margin: 1%;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+form {
+    border: 1px solid green;
+    text-justify: center;
+}
+
+h2 {
+    border: 1px solid purple;
+    margin: 2%;
+    text-align: center;
+
+}
+
+.messages {
+    border: 1px solid yellow;
+
+}
+
+.message {
+    border: 1px solid orange;
+    margin: 2%;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 451px) {
+    h2 {
+      font-size: 50px;
+    }
+
+    .message {
+        font-size: 40px;
+    }
+}
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 450px) {
+    h2 {
+        font-size: 40px;
+      }
+
+      .message {
+        font-size: 20px;
+    }
+  }
