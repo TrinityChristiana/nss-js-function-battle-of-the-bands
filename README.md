@@ -8,3 +8,13 @@ Preview Assignment: add repl.it link here
 ***
 
 This assignment uses a function that take in argument and uses a counter to determine a message written in the console.log.
+
+
+
+
+
+
+UI/UX Challenge
+This is an optional challenge once you meet MVP. Make a new GitHub branch for this challenge.
+
+Nightclub management wants to use this app at the front door during the event. Incorporate the logic you have written and add an HTML document and apply CSS to make a mobile version of Battle of the Bands.
