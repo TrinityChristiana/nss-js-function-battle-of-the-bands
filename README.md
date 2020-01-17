@@ -1,10 +1,10 @@
 # Take a Number - Battle of the Bands
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e59cf4b6-b469-4259-8f58-ad9d7f63b77d/deploy-status)](https://app.netlify.com/sites/trinity-battle-of-the-bands/deploys)
 Date Created: 01/10/20 | Date Modified: 01/10/20
 
 This assignment is practice for Book 2: Chapter 4 of NSS's course work. Link to the assignment: https://github.com/nashville-software-school/client-side-mastery/blob/master/book-2-the-neophyte/chapters/JS_FUNCTION_BASICS.md#practice-take-a-number---battle-of-the-bands
 
-Preview Assignment: add repl.it link here
+Preview Assignment: https://trinity-battle-of-the-bands.netlify.com
 ***
 
 This assignment uses a function that take in argument and uses a counter to determine a message written in the console.log.
